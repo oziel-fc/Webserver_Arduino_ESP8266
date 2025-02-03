@@ -36,7 +36,7 @@ This project was developed using an Arduino and an ESP8266 Wi-Fi module to creat
 
 ## Notes
 
-- Make sure the [`<ESP8266WiFi.h>`](https://arduino.esp8266.com/stable/package_esp8266com_index.json) and [`<ESP8266WebServer.h>`](https://arduino.esp8266.com/stable/package_esp8266com_index.json) libraries are installed in your Arduino IDE.
+- Make sure the [`<ESP8266WiFi.h>`](https://arduino.esp8266.com/stable/package_esp8266com_index.json) and [`<ESP8266WebServer.h>`](https://arduino.esp8266.com/stable/package_esp8266com_index.json) libraries are installed in your Arduino IDE. [See how to install](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/).
 - Ensure that the SSID, Wi-Fi password, username, and login password are correct.
 - The system will display messages in the Serial Monitor, such as connection status and login results.
 
