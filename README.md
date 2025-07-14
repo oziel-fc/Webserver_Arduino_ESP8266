@@ -40,6 +40,8 @@ This project was developed using an Arduino and an ESP8266 Wi-Fi module to creat
 - Ensure that the SSID, Wi-Fi password, username, and login password are correct.
 - The system will display messages in the Serial Monitor, such as connection status and login results.
 
-## License
+## Credits
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Developed by [oziel-fc](https://github.com/oziel-fc)
+
+This project is part of my personal portfolio. Feel free to explore, suggest improvements, or contribute!
