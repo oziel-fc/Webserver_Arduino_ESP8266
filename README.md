@@ -9,23 +9,34 @@ This project was developed using an Arduino and an ESP8266 Wi-Fi module to creat
 
 ## Configuration  
 
-1. **Wi-Fi Network**:  
+1. **Connect Arduino and ESP8266**:
+   - See how to connect [here](https://medium.com/@abdulhamidrpn/how-to-communicate-with-arduino-to-esp8266-wifi-module-via-serial-communication-2110bc626b91).
+
+2. **Wi-Fi Network**:  
    - In the ESP8266 code, configure the network name (SSID) and the Wi-Fi password.
-
-2. **Login Credentials**:  
+      ```
+      const char* ssid = "SSID";        // Wi-Fi Network name
+      const char* password = "password";  // Wi-Fi Network password
+      ```
+      
+3. **Login Credentials**:  
    - Set the username and password for the login page.
-
-3. **Setup**:  
+      ```
+      const String correctUsername = "admin";
+      const String correctPassword = "admin";
+      ```
+      
+4. **Setup**:  
    - You need to upload the "ESP_server.ino" file to your ESP8266 device and upload the "arduino_controller.ino" file to your Arduino device.
 
-4. **Connection and Access**:  
+5. **Connection and Access**:  
    - After configuring and uploading the code, the ESP8266 will try to connect to the Wi-Fi network.  
    - If everything is set up correctly, the Serial Monitor will display the IP address of the local server.  
    - Copy the IP and paste it into the browser's address bar to access the web server.
 
 ## Demonstration
 
-- In this example, an LED is used to demonstrate the button functionality on the web server.
+- In this example code, an LED is used to demonstrate the button functionality on the web server.
 - The button on the HTML page can be used to turn the LED on and off.
 
 ## Possible Applications  
